@@ -42,6 +42,7 @@ public class QuadraticEquation {
     }
 
     void resultRoot(){
+        System.out.println("Phương trình bậc hai "+this.a+"X2 + "+this.b+"X +"+this.c+" = 0 là:");
         if (this.a==0){
             System.out.println("Phương trình vô nghiệm");
         }else
