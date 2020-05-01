@@ -42,6 +42,9 @@ public class QuadraticEquation {
     }
 
     void resultRoot(){
+        if (this.a==0){
+            System.out.println("Phương trình vô nghiệm");
+        }else
         if (getDiscriminant()>0){
             System.out.println("Phương trình có 2 nghiệm: "+"x1= "+getRoot1()+" và x2= "+getRoot2());
         }else
